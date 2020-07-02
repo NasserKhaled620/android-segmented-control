@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <info.hoang8f.android.segmented.SegmentedGroup xmlns:segmentedgroup="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/segmented2"
+        android:layout_width="400dp"
+        android:layout_height="50dp"
+        android:layout_margin="50dp"
+        android:orientation="horizontal"
+        segmentedgroup:sc_border_width="5dp"
+        segmentedgroup:sc_corner_radius="30dp"
+        segmentedgroup:sc_checked_text_color="#05FBAD"
+        segmentedgroup:sc_tint_color="#61FF00">
+
+        <RadioButton
+            android:id="@+id/one"
+            style="@style/RadioButton"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text="Breakfast" />
+
+        <RadioButton
+            android:id="@+id/two"
+            style="@style/RadioButton"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text="lunch" />
+        <RadioButton
+            android:id="@+id/three"
+            style="@style/RadioButton"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text="Dinner" />
+
+
+
+    </info.hoang8f.android.segmented.SegmentedGroup>
+
+</LinearLayout>
